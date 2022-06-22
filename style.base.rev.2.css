@@ -43,9 +43,15 @@ a{
 .tex-inblo{
 	display: inline-block;
 }
-.br-20px{
+.br-20px, .br-10px{
 	display: block;
+	clear: both;
+}
+.br-20px{
 	height: 20px;
+}
+.br-10px{
+	height: 10px;
 }
 .img{
 	width: 100%;
@@ -57,10 +63,6 @@ a{
 .bla-bor{
 	border: 3px solid #222;
 	border-radius: 5px;
-}
-.br-10px{
-	display: block;
-	height: 10px;
 }
 .tex-jus{
 	text-align: justify;
