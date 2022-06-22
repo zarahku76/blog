@@ -18,7 +18,7 @@
 	padding: 10px 20px;
 	margin: auto;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 360px){
 	#main{
 		height: auto;
 	}
