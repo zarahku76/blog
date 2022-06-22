@@ -67,3 +67,17 @@
 #github-page{
 	padding: 10px 0;
 }
+#tools{
+	background-color: #431239;
+}
+.under{
+	display: block;
+	margin: 10px;
+	width: 40px;
+	height: 4px;
+	background-color: #FFF;
+}
+#foot{
+	padding: 20px;
+	background-color: #000;
+}
