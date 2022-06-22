@@ -13,14 +13,30 @@
 #main-center{
 	position: relative;
 	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	max-width: 480px;
 	padding: 10px 20px;
 	margin: auto;
+}
+@media screen and (max-width: 800px){
+	#main{
+		height: auto;
+	}
+	#main-center{
+		position: relative;
+		top: 0;
+		transform: translateY(0);
+	}
+}
+@media screen and (max-height: 480px){
+	#main{
+		height: auto;
+	}
+	#main-center{
+		position: relative;
+		top: 0;
+		transform: translateY(0);
+	}
 }
 #main-zero h1{
 	font-weight: normal;
