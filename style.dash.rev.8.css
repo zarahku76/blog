@@ -28,7 +28,7 @@
 		transform: translateY(0);
 	}
 }
-@media screen and (max-height: 390px){
+@media screen and (max-height: 400px){
 	#main{
 		height: auto;
 	}
