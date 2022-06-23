@@ -2,7 +2,7 @@
 	width: 50%;
 	display: block;
 	float: left;
-	border: 3px solid #000;
+	border: 1px solid #DDD;
 	resize: none;
 	outline: none;
 	padding: 20px;
@@ -19,7 +19,7 @@
 		width: 100%;
 	}
 	#out{
-		border-left: 3px solid #000;
+		border: 1px solid #DDD;
 	}
 	#ss{
 		display: block;
