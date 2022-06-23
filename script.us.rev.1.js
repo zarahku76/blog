@@ -4,13 +4,15 @@ var ou = elid('out');
 var cp = elid('copy');
 var cl = elid('clear');
 g.onclick = function(e){
-	var o = '-';
-	ou.value = iu.value
-	.toLowerCase()
-	.replace(/[^0-9a-z\s]/g, '')
-	.replace(/\s\s+/g, ' ')
-	.replace(/\s*$/, '')
-	.replace(/\s/g, o);
+	if(iu){
+		var o = '-';
+		ou.value = iu.value
+		.toLowerCase()
+		.replace(/[^0-9a-z\s]/g, '')
+		.replace(/\s\s+/g, ' ')
+		.replace(/\s*$/, '')
+		.replace(/\s/g, o);
+	}
 }
 cp.onclick = function(e){
 	if(ou.value != ''){
@@ -21,4 +23,5 @@ cp.onclick = function(e){
 }
 cl.onclick = function(e){
 	ou.value = iu.value = '';
+	iu.focus();
 }
