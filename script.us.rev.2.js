@@ -4,7 +4,7 @@ var ou = elid('out');
 var cp = elid('copy');
 var cl = elid('clear');
 g.onclick = function(e){
-	if(iu){
+	if(iu.value){
 		var o = '-';
 		ou.value = iu.value
 		.toLowerCase()
