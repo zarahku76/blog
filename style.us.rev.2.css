@@ -25,13 +25,17 @@
 	cursor: pointer;
 	color: #FFF;
 }
+#generate:hover, #generate:focus,
+#copy:hover, #copy:focus,
+#clear:hover, #clear:focus{
+	background-color: #FFF;
+}
 #generate{
 	border: 2px solid #20b931;
 	background-color: #20b931;
 }
 #generate:hover, #generate:focus{
 	color: #20b931;
-	background-color: #FFF;
 }
 #copy{
 	border: 2px solid #64339d;
@@ -39,7 +43,6 @@
 }
 #copy:hover, #copy:focus{
 	color: #64339d;
-	background-color: #FFF;
 }
 #clear{
 	border: 2px solid #f31e3a;
@@ -47,5 +50,4 @@
 }
 #clear:hover, #clear:focus{
 	color: #f31e3a;
-	background-color: #FFF;
 }
