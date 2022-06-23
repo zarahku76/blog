@@ -40,7 +40,8 @@
 	margin: 5px 0;
 	font-size: 18px;
 }
-#sort:hover, #reverse:hover, #copy:hover, #clear:hover{
+#sort:hover, #reverse:hover, #copy:hover, #clear:hover,
+#sort:focus, #reverse:focus, #copy:focus, #clear:focus{
 	background-color: #FFF;
 }
 #sort{
@@ -59,15 +60,15 @@
 	background-color: #6b3e93;
 	border: 2px solid #6b3e93;
 }
-#sort:hover{
+#sort:hover, #sort:focus{
 	color: #3620c0;
 }
-#reverse:hover{
+#reverse:hover, #reverse:focus{
 	color: #e83e24;
 }
-#copy:hover{
+#copy:hover, #copy:focus{
 	color: #18a150;
 }
-#clear:hover{
+#clear:hover, #clear:focus{
 	color: #6b3e93;
 }
