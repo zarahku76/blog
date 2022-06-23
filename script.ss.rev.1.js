@@ -25,7 +25,6 @@ copy.onclick = function(e){
 	}
 }
 clear.onclick = function(e){
-	tin.value = '';
-	tout.value = '';
+	tin.value = tout.value = '';
 	tin.focus();
 }
