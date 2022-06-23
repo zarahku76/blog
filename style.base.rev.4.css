@@ -54,11 +54,13 @@ a{
 .br-10px{
 	height: 10px;
 }
-.img{
+.img, .img-left{
 	width: 100%;
 	max-width: 400px;
 	height: auto;
 	display: block;
+}
+.img{
 	margin: auto;
 }
 .bla-bor{
